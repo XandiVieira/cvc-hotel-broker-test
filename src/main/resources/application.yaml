@@ -1,0 +1,13 @@
+server:
+  contextPath: /
+  port: 8080
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  cache:
+    type: redis
+  redis:
+    host: localhost
+    port: 6379
